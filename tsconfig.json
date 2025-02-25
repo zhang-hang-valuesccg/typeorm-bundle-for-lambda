@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "strict": true,
+    "preserveConstEnums": true,
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    // typeormに必要なデコレーター設定
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    // ./distに.jsを排出
+    "outDir": "dist",
+    "noEmit": false
+  },
+  "exclude": ["node_modules", "**/*.test.ts", "dist", "bundle"]
+}
